@@ -6,66 +6,84 @@ public class pl_GrapplingHook : MonoBehaviour
 {
 
     private Rigidbody rig;
+    public Rigidbody rig_Hook;
+
     public GameObject Hook;
     public GameObject grappleObject;
     public GameObject projSpawner;
-    
-    private bool projShot;
+
+
+    private Vector3 hookPos;
+    private Vector3 hookreturn;
+
+    private bool projHasShot;
+    public bool hookReturnActive;
     public bool rangeOut;
 
     private void Start()
     {
         rig = GetComponent<Rigidbody>();
-        projShot = projSpawner.GetComponentInChildren<ProjectileSpawner>().hasShot;
+        projHasShot = projSpawner.GetComponentInChildren<ProjectileSpawner>().hasShot;
         rangeOut = false;
+        hookReturnActive = false;
+        
     }
 
+    private void rapelForward( GameObject Hook)
+    {
+        hookPos = (Hook.transform.position - transform.position).normalized;
+        Hook.transform.forward = hookreturn;
+
+        rig.velocity = hookPos;
+        rig.AddForce(rig.velocity * 30, ForceMode.Impulse);
+
+    }
+
+    private void rapelReturn(GameObject Hook)
+    {
+
+        
+        rig_Hook = Hook.GetComponent<Rigidbody>();
+        
+        hookReturnActive = true;
+        rig_Hook.isKinematic = false;
+        Hook.GetComponent<MeshCollider>().isTrigger = false;
+        Hook.GetComponent<MeshCollider>().enabled = true;
+    }
   
+    public void returnHookValue(bool isreturning)
+    {
+        
+        if (isreturning == true)
+        {
+            rig_Hook = Hook.GetComponent<Rigidbody>();
+            print("is reutnring");
+            hookreturn = (transform.position - Hook.transform.position).normalized;
+            rig_Hook.velocity = hookreturn * 10;
+        }
+        
+    }
 
     void Update()
     {
-        if (Hook != null)
+
+        if (Hook != null && hookReturnActive == false)
         {
-            // direction player is launched twards
-            Vector3 hookPos = (Hook.transform.position - transform.position).normalized;
-            // direction hook is launched twards
-            Vector3 hookreturn = (transform.position - Hook.transform.position).normalized;
 
-            //modifying the hook angle for return
-            Rigidbody rig_Hook = Hook.GetComponent<Rigidbody>();
-            Hook.transform.forward = hookreturn;
-
-            //modifying the player for boost
-            rig.velocity = hookPos;
-            rig.AddForce(rig.velocity * 30, ForceMode.Impulse);
-
+            //rapelForward(Hook);
             
-            if (Input.GetMouseButtonDown(1))
-            {
-
-                rig_Hook.isKinematic = false;
-                rig_Hook.useGravity = false;
-                // sending the hook back to the player
-                rig_Hook.velocity = hookreturn * 10;
-                Hook.GetComponent<SphereCollider>().isTrigger = true;
-                Hook.GetComponent<SphereCollider>().enabled = true;
-
-
-            }
         }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            rapelReturn(Hook);
+
+        }
+
+        returnHookValue(hookReturnActive);
+
     }
 
-    //public void OnCollisionEnter(Collision col)
-    //{
-    //    print(col.gameObject);
-    //    if(col.gameObject.tag == "bullet")
-    //    {
-    //        grappleObject.SetActive(true);
-    //        projSpawner.GetComponentInChildren<ProjectileSpawner>().hasShot = false;
-    //        Destroy(col.gameObject);
-    //    }
-    //}
-
-    // Update is called once per frame
+    
     
 }
