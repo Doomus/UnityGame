@@ -39,6 +39,12 @@ public class pl_GrapplingHook : MonoBehaviour
 
     }
 
+    IEnumerator returnForcePulse()
+    {
+        yield return new WaitForSeconds(0.5f);
+        rig_Hook.AddForce(hookreturn * 0.1f, ForceMode.Impulse);
+    }
+
     private void rapelReturn(GameObject Hook)
     {
 
@@ -59,7 +65,16 @@ public class pl_GrapplingHook : MonoBehaviour
             rig_Hook = Hook.GetComponent<Rigidbody>();
             print("is reutnring");
             hookreturn = (transform.position - Hook.transform.position).normalized;
-            rig_Hook.velocity = hookreturn * 10;
+           
+            if (rig_Hook.useGravity == true)
+            {
+                StartCoroutine(returnForcePulse());
+            }
+            else
+            {
+                rig_Hook.velocity = hookreturn * 20;
+            }
+            
         }
         
     }
@@ -70,7 +85,7 @@ public class pl_GrapplingHook : MonoBehaviour
         if (Hook != null && hookReturnActive == false)
         {
 
-            //rapelForward(Hook);
+            rapelForward(Hook);
             
         }
 
@@ -79,7 +94,7 @@ public class pl_GrapplingHook : MonoBehaviour
             rapelReturn(Hook);
 
         }
-
+        
         returnHookValue(hookReturnActive);
 
     }

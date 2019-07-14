@@ -8,12 +8,12 @@ public class ProjectileSpawner : MonoBehaviour
     public GameObject projectile;
     public GameObject projectileSpawnerPos;
     public GameObject grappleObject;
-    public ParticleSystem bulletParticle;
-    public bool hasShot;
     private GameObject bullet;
 
+    public ParticleSystem bulletParticle;
 
-  
+    public bool hasShot;
+    
 
     public void SpawnProjectile()
     {

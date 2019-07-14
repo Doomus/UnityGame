@@ -24,15 +24,20 @@ public class Projectile : MonoBehaviour
         
         Player = GameObject.Find("Player");
         spawner = GameObject.Find("bulletSpawn");
+        
         StartCoroutine(killTimer());
         
     }
 
  
 
-    private void Update()
+    private void FixedUpdate()
     {
-        Returning = Player.GetComponent<pl_GrapplingHook>().hookReturnActive; 
+        if(Returning == true)
+        {
+            Player.GetComponentInChildren<pl_GrapplingHook>().Hook = this.gameObject;
+            Player.GetComponent<pl_GrapplingHook>().hookReturnActive = true;
+        }
     }
 
     IEnumerator killTimer()
@@ -43,11 +48,7 @@ public class Projectile : MonoBehaviour
         {
             print("Times up");
             Returning = true;
-            Player.GetComponentInChildren<pl_GrapplingHook>().Hook = this.gameObject;
-
-            // Destroy(this.gameObject);
-            // spawner.GetComponent<ProjectileSpawner>().hasShot = false;
-            // spawner.GetComponent<ProjectileSpawner>().grappleObject.SetActive(true);
+            
         }
 
     }
@@ -75,6 +76,7 @@ public class Projectile : MonoBehaviour
             Player.GetComponentInChildren<pl_GrapplingHook>().rangeOut = false;
             Destroy(this.gameObject);
             Player.GetComponentInChildren<pl_GrapplingHook>().hookReturnActive = false;
+            Player.GetComponent<pl_GrapplingHook>().hookReturnActive = false;
 
 
 
