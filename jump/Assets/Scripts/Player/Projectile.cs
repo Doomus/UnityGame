@@ -8,7 +8,7 @@ public class Projectile : MonoBehaviour
     public GameObject Player;
     public GameObject spawner;
     public bool hasHooked;
-    private bool Returning;
+    public bool Returning;
 
     
 
@@ -24,6 +24,7 @@ public class Projectile : MonoBehaviour
         
         Player = GameObject.Find("Player");
         spawner = GameObject.Find("bulletSpawn");
+        gameObject.GetComponent<Rigidbody>().useGravity = Player.GetComponent<Rigidbody>().useGravity;
         
         StartCoroutine(killTimer());
         
@@ -37,7 +38,22 @@ public class Projectile : MonoBehaviour
         {
             Player.GetComponentInChildren<pl_GrapplingHook>().Hook = this.gameObject;
             Player.GetComponent<pl_GrapplingHook>().hookReturnActive = true;
+
+           // if (Physics.Raycast(transform.position, transform.position - Player.transform.position, 15))
+           // {
+           //     spawner.GetComponentInChildren<ProjectileSpawner>().hasShot = false;
+           //     Player.GetComponentInChildren<pl_GrapplingHook>().grappleObject.SetActive(true);
+           //     Player.GetComponentInChildren<pl_GrapplingHook>().rangeOut = false;
+           //     Destroy(this.gameObject);
+           //     Player.GetComponentInChildren<pl_GrapplingHook>().hookReturnActive = false;
+           //     Player.GetComponent<pl_GrapplingHook>().hookReturnActive = false;
+           // }
         }
+        if (Player.GetComponent<pl_GrapplingHook>().hookReturnActive == true)
+        {
+            Returning = true;
+        }
+        
     }
 
     IEnumerator killTimer()
@@ -61,7 +77,7 @@ public class Projectile : MonoBehaviour
             hasHooked = true;
             //transform.rotation = Quaternion.FromToRotation(Vector3.forward, new Vector3(60, 80, 80));
             gameObject.GetComponent<Rigidbody>().isKinematic = true;
-            gameObject.GetComponent<Collider>().enabled = false;
+            gameObject.GetComponent<MeshCollider>().enabled = false;
             Player.GetComponentInChildren<pl_GrapplingHook>().Hook = this.gameObject;
             
 
@@ -76,8 +92,6 @@ public class Projectile : MonoBehaviour
             Player.GetComponentInChildren<pl_GrapplingHook>().rangeOut = false;
             Destroy(this.gameObject);
             Player.GetComponentInChildren<pl_GrapplingHook>().hookReturnActive = false;
-            Player.GetComponent<pl_GrapplingHook>().hookReturnActive = false;
-
 
 
         }
