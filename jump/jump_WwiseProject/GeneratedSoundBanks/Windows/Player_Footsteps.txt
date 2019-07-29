@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1730208058	Player_Footsteps			\Default Work Unit\Player_Footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1730208058	Player_Footsteps			\Default Work Unit\Player_Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	1191848353	Player_Footsteps_Metal_Zero_G	Player_Footsteps			
+	1254697330	Player_Footsteps_Metal	Player_Footsteps			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	12419268	Player Footsteps_Metal A10	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Windows\SFX\Player Footsteps_Metal A10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Player Footsteps\Player Footsteps_Metal\Player Footsteps_Metal A10		75412
+	101207567	Player Footsteps_Metal A7	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Windows\SFX\Player Footsteps_Metal A7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Player Footsteps\Player Footsteps_Metal\Player Footsteps_Metal A7		89052
+	115992096	Player Footsteps_Metal A4	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Windows\SFX\Player Footsteps_Metal A4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Player Footsteps\Player Footsteps_Metal\Player Footsteps_Metal A4		92068
+	146576962	Player Footsteps_Metal A5	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Windows\SFX\Player Footsteps_Metal A5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Player Footsteps\Player Footsteps_Metal\Player Footsteps_Metal A5		99060
+	171433330	Player Footsteps_Metal A6	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Windows\SFX\Player Footsteps_Metal A6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Player Footsteps\Player Footsteps_Metal\Player Footsteps_Metal A6		91152
+	251507464	Player Footsteps_Metal A11	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Windows\SFX\Player Footsteps_Metal A11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Player Footsteps\Player Footsteps_Metal\Player Footsteps_Metal A11		122576
+	274274641	Player Footsteps_Metal A1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Windows\SFX\Player Footsteps_Metal A1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Player Footsteps\Player Footsteps_Metal\Player Footsteps_Metal A1		92000
+	371207051	Player Footsteps_Metal A3	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Windows\SFX\Player Footsteps_Metal A3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Player Footsteps\Player Footsteps_Metal\Player Footsteps_Metal A3		100240
+	449182485	Player Footsteps_Metal A8	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Windows\SFX\Player Footsteps_Metal A8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Player Footsteps\Player Footsteps_Metal\Player Footsteps_Metal A8		88292
+	481014064	Player Footsteps_Metal A9	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Windows\SFX\Player Footsteps_Metal A9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Player Footsteps\Player Footsteps_Metal\Player Footsteps_Metal A9		91060
+	839479375	Player Footsteps_Metal A2	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Windows\SFX\Player Footsteps_Metal A2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Player Footsteps\Player Footsteps_Metal\Player Footsteps_Metal A2		95312
+
