@@ -63,6 +63,9 @@ public class Inventory : MonoBehaviour
         Instantiate(itemSlot, itemSlotParent.transform);
         Text textC = itemSlot.GetComponentInChildren<Text>();
         textC.text = item.name;
+        Debug.Log (item.name);
+        Image itemSprite = itemSlot.GetComponent<Image>();
+        itemSprite.sprite = item.icon;
 
         if (onItemChangedCallback != null)
         {
