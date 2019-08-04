@@ -1,6 +1,316 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A7D53060-E160-4327-B693-AF6D2BA1F467}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{A7D53060-E160-4327-B693-AF6D2BA1F467}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A7D53060-E160-4327-B693-AF6D2BA1F467}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Foley" ID="{6D9359FC-C1A1-4CFB-96F2-FA2B154E2358}" ShortID="660776961">
+					<ChildrenList>
+						<SwitchContainer Name="Player Footsteps" ID="{4F9C55DE-40CF-460C-BDBF-A504E7197EC0}" ShortID="320995784">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Player_Footsteps_Metal" ID="{04F468AD-949A-447D-8143-8396C0E8A144}" WorkUnitID="{16752257-55FE-4987-A104-1C446BA6D6C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Player_Footsteps" ID="{62BA5DFD-2375-4AB6-B285-1A2DFE2AEA19}" WorkUnitID="{16752257-55FE-4987-A104-1C446BA6D6C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Player Footsteps_Metal" ID="{116D0B49-83B1-4DFA-A72F-A3329509C62F}" ShortID="313168904">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0A913395-2D2D-41FE-800B-36B39B92642B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="75"/>
+															<Property Name="Min" Type="Real64" Value="-75"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Player Footsteps_Metal A1" ID="{4821ADA4-C90D-49AD-A66B-C87A4E22D041}" ShortID="591411894">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D91811E5-2E6A-4366-9974-DDD1C842A43F}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="75"/>
+																	<Property Name="Min" Type="Real64" Value="-75"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Footsteps_Metal A1" ID="{333F3643-A698-43BF-9AA2-DCB4F4EE8CAC}" ShortID="274274641">
+													<Language>SFX</Language>
+													<AudioFile>Player Footsteps_Metal A1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Footsteps_Metal A1" ID="{333F3643-A698-43BF-9AA2-DCB4F4EE8CAC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player Footsteps_Metal A2" ID="{F24CA4C2-08DF-4D91-A3F3-E3162B4C32DD}" ShortID="582158684">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Footsteps_Metal A2" ID="{79D70B59-C745-4F85-B543-5EAF3DB02277}" ShortID="839479375">
+													<Language>SFX</Language>
+													<AudioFile>Player Footsteps_Metal A2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Footsteps_Metal A2" ID="{79D70B59-C745-4F85-B543-5EAF3DB02277}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player Footsteps_Metal A3" ID="{D34FD8EC-2F45-4AF9-84C2-9B8BD41B90F3}" ShortID="273096159">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Footsteps_Metal A3" ID="{B09AFCB2-7C55-49A0-B1C4-66FD20077B43}" ShortID="371207051">
+													<Language>SFX</Language>
+													<AudioFile>Player Footsteps_Metal A3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Footsteps_Metal A3" ID="{B09AFCB2-7C55-49A0-B1C4-66FD20077B43}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player Footsteps_Metal A4" ID="{442F4D65-D25A-4A3A-9465-78DAA22825DA}" ShortID="136487835">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Footsteps_Metal A4" ID="{38283EC9-9244-4381-9AB3-6BA06180795E}" ShortID="115992096">
+													<Language>SFX</Language>
+													<AudioFile>Player Footsteps_Metal A4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Footsteps_Metal A4" ID="{38283EC9-9244-4381-9AB3-6BA06180795E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player Footsteps_Metal A5" ID="{9AF1C84A-1D8B-4BDE-B770-659059220184}" ShortID="692937533">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Footsteps_Metal A5" ID="{327DB47E-90A0-423E-A803-5E2563FF14E5}" ShortID="146576962">
+													<Language>SFX</Language>
+													<AudioFile>Player Footsteps_Metal A5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Footsteps_Metal A5" ID="{327DB47E-90A0-423E-A803-5E2563FF14E5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player Footsteps_Metal A6" ID="{4151ED28-F415-48D1-B989-4AE1C1EA9507}" ShortID="758591630">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Footsteps_Metal A6" ID="{95BEFAEF-94ED-4073-9E68-96F20372540B}" ShortID="171433330">
+													<Language>SFX</Language>
+													<AudioFile>Player Footsteps_Metal A6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Footsteps_Metal A6" ID="{95BEFAEF-94ED-4073-9E68-96F20372540B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player Footsteps_Metal A7" ID="{38920CC1-A772-42AB-A3E7-5029C5E1A317}" ShortID="305850025">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Footsteps_Metal A7" ID="{5EBA75D0-B515-4075-A5A8-58F2DF9824A5}" ShortID="101207567">
+													<Language>SFX</Language>
+													<AudioFile>Player Footsteps_Metal A7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Footsteps_Metal A7" ID="{5EBA75D0-B515-4075-A5A8-58F2DF9824A5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player Footsteps_Metal A8" ID="{9646BA57-2BE1-4E22-987C-29B8662B7F9E}" ShortID="710212717">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Footsteps_Metal A8" ID="{E8EEB1C5-2A3F-42B3-83BA-52A53152B823}" ShortID="449182485">
+													<Language>SFX</Language>
+													<AudioFile>Player Footsteps_Metal A8.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Footsteps_Metal A8" ID="{E8EEB1C5-2A3F-42B3-83BA-52A53152B823}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player Footsteps_Metal A9" ID="{DE6AFF1A-79CC-4004-AF7F-5D23E2A61C78}" ShortID="1071361231">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Footsteps_Metal A9" ID="{B97D3601-D93C-4E89-9F73-E7A6866DB36B}" ShortID="481014064">
+													<Language>SFX</Language>
+													<AudioFile>Player Footsteps_Metal A9.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Footsteps_Metal A9" ID="{B97D3601-D93C-4E89-9F73-E7A6866DB36B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player Footsteps_Metal A10" ID="{6C04E3A5-DFE7-41F2-89B6-0228EA990D84}" ShortID="417101635">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Footsteps_Metal A10" ID="{1F092DE2-E06C-45C2-ACDF-FC4BF2CC79C8}" ShortID="12419268">
+													<Language>SFX</Language>
+													<AudioFile>Player Footsteps_Metal A10.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Footsteps_Metal A10" ID="{1F092DE2-E06C-45C2-ACDF-FC4BF2CC79C8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player Footsteps_Metal A11" ID="{4EED57A4-C82B-49BB-9D43-5C8C6CA50506}" ShortID="391645425">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Footsteps_Metal A11" ID="{1EF60AB0-71A7-4E51-99CD-A84AF7A7B915}" ShortID="251507464">
+													<Language>SFX</Language>
+													<AudioFile>Player Footsteps_Metal A11.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Footsteps_Metal A11" ID="{1EF60AB0-71A7-4E51-99CD-A84AF7A7B915}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Player Footsteps_Metal_Zero G" ID="{B4D60077-4D1E-49CF-A4B0-E5A35DAD09F3}" ShortID="26906620">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Player Footsteps_Metal" ID="{116D0B49-83B1-4DFA-A72F-A3329509C62F}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Player Footsteps_Metal_Zero G" ID="{B4D60077-4D1E-49CF-A4B0-E5A35DAD09F3}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Player_Footsteps_Metal_Zero_G" ID="{69AE0E1F-37AB-48F4-88D7-17F06637CC35}"/>
+										<ItemList>
+											<ItemRef Name="Player Footsteps_Metal_Zero G" ID="{B4D60077-4D1E-49CF-A4B0-E5A35DAD09F3}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Player_Footsteps_Metal" ID="{04F468AD-949A-447D-8143-8396C0E8A144}"/>
+										<ItemList>
+											<ItemRef Name="Player Footsteps_Metal" ID="{116D0B49-83B1-4DFA-A72F-A3329509C62F}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

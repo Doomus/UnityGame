@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1730208058" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Player_Footsteps</ObjectPath>
+			<ShortName>Player_Footsteps</ShortName>
+			<Path>Player_Footsteps.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1730208058" Name="Player_Footsteps" ObjectPath="\Events\Default Work Unit\Player_Footsteps" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.666334"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="12419268" Language="SFX">
+					<ShortName>Player Footsteps_Metal A10.wav</ShortName>
+					<Path>SFX\Player Footsteps_Metal A10_10C4C929.wem</Path>
+				</File>
+				<File Id="101207567" Language="SFX">
+					<ShortName>Player Footsteps_Metal A7.wav</ShortName>
+					<Path>SFX\Player Footsteps_Metal A7_10C4C929.wem</Path>
+				</File>
+				<File Id="115992096" Language="SFX">
+					<ShortName>Player Footsteps_Metal A4.wav</ShortName>
+					<Path>SFX\Player Footsteps_Metal A4_10C4C929.wem</Path>
+				</File>
+				<File Id="146576962" Language="SFX">
+					<ShortName>Player Footsteps_Metal A5.wav</ShortName>
+					<Path>SFX\Player Footsteps_Metal A5_10C4C929.wem</Path>
+				</File>
+				<File Id="171433330" Language="SFX">
+					<ShortName>Player Footsteps_Metal A6.wav</ShortName>
+					<Path>SFX\Player Footsteps_Metal A6_10C4C929.wem</Path>
+				</File>
+				<File Id="251507464" Language="SFX">
+					<ShortName>Player Footsteps_Metal A11.wav</ShortName>
+					<Path>SFX\Player Footsteps_Metal A11_10C4C929.wem</Path>
+				</File>
+				<File Id="274274641" Language="SFX">
+					<ShortName>Player Footsteps_Metal A1.wav</ShortName>
+					<Path>SFX\Player Footsteps_Metal A1_10C4C929.wem</Path>
+				</File>
+				<File Id="371207051" Language="SFX">
+					<ShortName>Player Footsteps_Metal A3.wav</ShortName>
+					<Path>SFX\Player Footsteps_Metal A3_10C4C929.wem</Path>
+				</File>
+				<File Id="449182485" Language="SFX">
+					<ShortName>Player Footsteps_Metal A8.wav</ShortName>
+					<Path>SFX\Player Footsteps_Metal A8_10C4C929.wem</Path>
+				</File>
+				<File Id="481014064" Language="SFX">
+					<ShortName>Player Footsteps_Metal A9.wav</ShortName>
+					<Path>SFX\Player Footsteps_Metal A9_10C4C929.wem</Path>
+				</File>
+				<File Id="839479375" Language="SFX">
+					<ShortName>Player Footsteps_Metal A2.wav</ShortName>
+					<Path>SFX\Player Footsteps_Metal A2_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
