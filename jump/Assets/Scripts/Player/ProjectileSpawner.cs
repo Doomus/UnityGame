@@ -39,7 +39,7 @@ public class ProjectileSpawner : MonoBehaviour
             
             
         }
-
+        AkSoundEngine.PostEvent("Grappling_Hook_Fire_Hiss", gameObject);
 
     }
 }

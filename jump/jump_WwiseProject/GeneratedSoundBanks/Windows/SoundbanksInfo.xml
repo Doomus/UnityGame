@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1587986418" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Grappling_Hook_Fire_Hiss</ObjectPath>
+			<ShortName>Grappling_Hook_Fire_Hiss</ShortName>
+			<Path>Grappling_Hook_Fire_Hiss.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1587986418" Name="Grappling_Hook_Fire_Hiss" ObjectPath="\Events\Default Work Unit\Grappling_Hook_Fire_Hiss" DurationType="OneShot" DurationMin="2.696291" DurationMax="3.599116"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="357721212" Language="SFX">
+					<ShortName>Grappling Hook_Fire_Shot 1.wav</ShortName>
+					<Path>SFX\Grappling Hook_Fire_Shot 1_10C4C929.wem</Path>
+				</File>
+				<File Id="509473590" Language="SFX">
+					<ShortName>Grappling Hook_Hiss Release 1.wav</ShortName>
+					<Path>SFX\Grappling Hook_Hiss Release 1_10C4C929.wem</Path>
+				</File>
+				<File Id="614342374" Language="SFX">
+					<ShortName>Grappling Hook_Fire_Mechanical 1.wav</ShortName>
+					<Path>SFX\Grappling Hook_Fire_Mechanical 1_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

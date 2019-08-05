@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{08835CC2-0DF7-4D3A-B428-82A23E14BD26}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{08835CC2-0DF7-4D3A-B428-82A23E14BD26}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{08835CC2-0DF7-4D3A-B428-82A23E14BD26}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Grappling_Hook_Fire_Hiss" ID="{C44CE34F-DAD3-4DD1-ADDF-66CB515EA42A}">
+					<ChildrenList>
+						<Action Name="" ID="{49E94DF9-133C-48C5-A01E-EB704EA748DF}" ShortID="535810065">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grappling Hook_Fire_Mechanical 1" ID="{6EAF861E-DEC2-4BD5-A526-8B728B651A81}" WorkUnitID="{04F09A1D-F8CE-4529-8336-D900DDF17D02}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E29FCD85-B1BC-4643-A32B-DE31B378E975}" ShortID="992934690">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grappling Hook_Fire_Shot 1" ID="{F652169B-34B7-47E9-B15C-515C3EE80ECA}" WorkUnitID="{04F09A1D-F8CE-4529-8336-D900DDF17D02}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4955BB79-49DF-410F-8D20-0786C401072B}" ShortID="703423289">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grappling Hook_Hiss Release 1" ID="{ECD62F8C-BB58-41C1-B89C-88DD90153886}" WorkUnitID="{04F09A1D-F8CE-4529-8336-D900DDF17D02}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1587986418	Grappling_Hook_Fire_Hiss			\Default Work Unit\Grappling_Hook_Fire_Hiss	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	357721212	Grappling Hook_Fire_Shot 1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Mac\SFX\Grappling Hook_Fire_Shot 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Tools\Grappling Hook\Grappling Hook_Fire_Shot\Grappling Hook_Fire_Shot 1		598176
+	509473590	Grappling Hook_Hiss Release 1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Mac\SFX\Grappling Hook_Hiss Release 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Tools\Grappling Hook\Grappling Hook_Air Hiss Release\Grappling Hook_Hiss Release 1		263744
+	614342374	Grappling Hook_Fire_Mechanical 1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Mac\SFX\Grappling Hook_Fire_Mechanical 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Tools\Grappling Hook\Grappling Hook Fire_Mechanical\Grappling Hook_Fire_Mechanical\Grappling Hook_Fire_Mechanical 1		182888
+

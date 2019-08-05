@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="861300542">
+	<Platform GUID="{75F24B36-5F71-41AB-B082-8E7A6E9FC76B}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Grappling_Hook" Hash="4263256221" Timestamp="1564958650"/>
+				<File Name="Grappling_Hook_Fire_Hiss" Hash="1561189246" Timestamp="1564960982"/>
+				<File Name="Init" Hash="3332624907" Timestamp="1564958650"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="1917682854" Timestamp="1564960982"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{3153DCD8-A675-4D31-8FCE-561AB808AA3D}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Grappling_Hook" Hash="4263256221" Timestamp="1564958651"/>
+				<File Name="Grappling_Hook_Fire_Hiss" Hash="1561189246" Timestamp="1564960982"/>
+				<File Name="Init" Hash="482725309" Timestamp="1564958651"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="4105986716" Timestamp="1564960982"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

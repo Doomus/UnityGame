@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{04F09A1D-F8CE-4529-8336-D900DDF17D02}" SchemaVersion="94" RootDocumentID="{A7D53060-E160-4327-B693-AF6D2BA1F467}">
+	<AudioObjects>
+		<WorkUnit Name="Tools" ID="{04F09A1D-F8CE-4529-8336-D900DDF17D02}" OwnerID="{4C2234F7-982A-413B-B366-7EA34C09315B}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Grappling Hook" ID="{E6A8F918-1A54-4825-AD0C-420AE98526DB}" ShortID="645251826">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="Grappling Hook_Fire_Shot" ID="{3716C18B-C303-48F2-BC3E-D3E6BE848382}" ShortID="391905164">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Grappling Hook_Fire_Shot 1" ID="{F652169B-34B7-47E9-B15C-515C3EE80ECA}" ShortID="358593272">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D39855F8-1725-4FF5-8E26-D617ACB31CC7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="250"/>
+															<Property Name="Min" Type="Real64" Value="-250"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{39F495E6-828F-4E57-AE35-BF3A8CF6FADC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grappling Hook_Fire_Shot 1" ID="{AA385584-8364-4DD8-ABC8-C71E7D85BCB2}" ShortID="357721212">
+											<Language>SFX</Language>
+											<AudioFile>Grappling Hook_Fire_Shot 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grappling Hook_Fire_Shot 1" ID="{AA385584-8364-4DD8-ABC8-C71E7D85BCB2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Grappling Hook_Fire_Shot 1" ID="{F652169B-34B7-47E9-B15C-515C3EE80ECA}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Grappling Hook_Air Hiss Release" ID="{DF9BA4FB-F915-4A2B-8495-51CB9076EF17}" ShortID="432138318">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Grappling Hook_Hiss Release 1" ID="{ECD62F8C-BB58-41C1-B89C-88DD90153886}" ShortID="697242170">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ED81EA4C-6BB6-4A4E-895A-8E29BC9F89A6}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AD351705-216D-472B-886A-739BA8CF5531}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grappling Hook_Hiss Release 1" ID="{8278CA8B-28E2-44B5-9D9B-2A251D7C2C76}" ShortID="509473590">
+											<Language>SFX</Language>
+											<AudioFile>Grappling Hook_Hiss Release 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grappling Hook_Hiss Release 1" ID="{8278CA8B-28E2-44B5-9D9B-2A251D7C2C76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Grappling Hook_Hiss Release 1_Open Space" ID="{406A0BDC-C70D-433D-8B4D-54501CF03064}" ShortID="906210977">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F90D1206-5BA0-4705-A726-E89530F5E4C3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B5BA58AC-5A0D-49B7-982A-158041FC108A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grappling Hook_Hiss Release 1_Open Space" ID="{4DD78207-AC98-4546-8E03-3E4CCD8745A8}" ShortID="7458985">
+											<Language>SFX</Language>
+											<AudioFile>Grappling Hook_Hiss Release 1_Open Space.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grappling Hook_Hiss Release 1_Open Space" ID="{4DD78207-AC98-4546-8E03-3E4CCD8745A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Grappling Hook_Hiss Release 1" ID="{ECD62F8C-BB58-41C1-B89C-88DD90153886}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Grappling Hook_Hiss Release 1_Open Space" ID="{406A0BDC-C70D-433D-8B4D-54501CF03064}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Grappling Hook Fire_Mechanical" ID="{C91BB982-5D02-4BCE-8D01-858A263A53A6}" ShortID="992030934">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Grappling Hook_Fire_Mechanical" ID="{1E02C947-104E-478F-8D8D-89A4D3F6CD22}" ShortID="886391509">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Grappling Hook_Fire_Mechanical 1" ID="{6EAF861E-DEC2-4BD5-A526-8B728B651A81}" ShortID="642018806">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E4F8FDB0-699D-43AD-8CA2-A6AA38620119}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="250"/>
+																	<Property Name="Min" Type="Real64" Value="-250"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B9DA67D8-DFF9-41F2-BA0B-D132168BE1F7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Grappling Hook_Fire_Mechanical 1" ID="{178F5863-EEB2-48FC-A9D5-95BE384880D7}" ShortID="614342374">
+													<Language>SFX</Language>
+													<AudioFile>Grappling Hook_Fire_Mechanical 1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Grappling Hook_Fire_Mechanical 1" ID="{178F5863-EEB2-48FC-A9D5-95BE384880D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Grappling Hook_Fire_Mechanical" ID="{1E02C947-104E-478F-8D8D-89A4D3F6CD22}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
