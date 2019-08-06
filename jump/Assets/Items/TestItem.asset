@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a0379d4eadfd7d45918354c18fa8a02, type: 3}
   m_Name: TestItem
   m_EditorClassIdentifier: 
-  name: TestKey
+  name: TestItem
   icon: {fileID: 21300000, guid: 821a9da56c9160943a32b8f89607cbf6, type: 3}

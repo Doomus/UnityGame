@@ -15,14 +15,14 @@ public class Inventory : MonoBehaviour
 
     public GameObject itemSlotParent;
 
-    public bool inventoryOpen = false;
+    public bool inventoryOpen = true;
 
     #region Singleton
     public static Inventory instance;
 
     private void Awake()
     {
-        inventoryPanel.SetActive(false);
+        inventoryPanel.SetActive(true);
 
         if(instance != null)
         {
@@ -60,11 +60,11 @@ public class Inventory : MonoBehaviour
     public void AddItem(Item item)
     {
         items.Add(item);
-        Instantiate(itemSlot, itemSlotParent.transform);
-        Text textC = itemSlot.GetComponentInChildren<Text>();
+        GameObject newSlot = Instantiate(itemSlot, itemSlotParent.transform);
+        Text textC = newSlot.GetComponentInChildren<Text>();
         textC.text = item.name;
         Debug.Log (item.name);
-        Image itemSprite = itemSlot.GetComponent<Image>();
+        Image itemSprite = newSlot.GetComponent<Image>();
         itemSprite.sprite = item.icon;
 
         if (onItemChangedCallback != null)

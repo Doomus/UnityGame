@@ -610,7 +610,7 @@ PrefabInstance:
     - target: {fileID: 2537373298643187679, guid: 1c4b66f6605a8d249b9d1b40dd1efd7e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2537373298861015784, guid: 1c4b66f6605a8d249b9d1b40dd1efd7e,
         type: 3}
@@ -7395,7 +7395,7 @@ GameObject:
   - component: {fileID: 1027252773}
   - component: {fileID: 1027252772}
   m_Layer: 0
-  m_Name: TestInventory (1)
+  m_Name: TestKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9311,7 +9311,7 @@ GameObject:
   - component: {fileID: 1990019220}
   - component: {fileID: 1990019224}
   m_Layer: 0
-  m_Name: TestInventory
+  m_Name: Checkmark TestInventory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
