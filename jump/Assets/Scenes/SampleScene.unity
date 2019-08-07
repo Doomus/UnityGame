@@ -467,6 +467,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2488541944259448129, guid: 1c4b66f6605a8d249b9d1b40dd1efd7e,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488541944259448129, guid: 1c4b66f6605a8d249b9d1b40dd1efd7e,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.4392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488541944259448129, guid: 1c4b66f6605a8d249b9d1b40dd1efd7e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488541944259448129, guid: 1c4b66f6605a8d249b9d1b40dd1efd7e,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2537373299025451511, guid: 1c4b66f6605a8d249b9d1b40dd1efd7e,
         type: 3}
       propertyPath: m_Name
@@ -824,6 +844,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 699906894}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &272371512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7252479323074471116, guid: 1c4b66f6605a8d249b9d1b40dd1efd7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 122530942}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &302258766
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,12 +919,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &304469152 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 521535378843212327, guid: 35df7df4d0b700c47ab560717c70588b,
-    type: 3}
-  m_PrefabInstance: {fileID: 4514256298140371681}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &352649794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,7 +1157,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6bfcc3eae94b0841859dd3bb343ab1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  radius: 3
+  InteractableTransform: {fileID: 489297480}
   Door: {fileID: 213986319}
+  needsKey: 0
+  requiredKey: {fileID: 0}
 --- !u!65 &489297482
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1157,38 +1181,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4514256298140371681}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &532585198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 532585197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da01bac3200c3c441bedcb9139e58e8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  holdPOS: {fileID: 304469152}
-  player: {fileID: 532585197}
---- !u!114 &532585199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 532585197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c72ea0ea4c3deb645a5ada80d3ad001a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventoryPanel: {fileID: 878509936}
-  itemSlot: {fileID: 589155220601880321, guid: 168b37c58d2ec504b8e76703da83009e, type: 3}
-  itemSlotParent: {fileID: 878509936}
-  inventoryOpen: 0
-  items: []
 --- !u!114 &532585200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6325,7 +6317,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6bfcc3eae94b0841859dd3bb343ab1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  radius: 3
+  InteractableTransform: {fileID: 751345855}
   Door: {fileID: 1911213287}
+  needsKey: 1
+  requiredKey: {fileID: 11400000, guid: 8cf061def5e6c9d4f8ae1bb35009a927, type: 2}
 --- !u!65 &751345857
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6337,8 +6333,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8823398, y: 1, z: 0.12455271}
-  m_Center: {x: 0.058830153, y: 0, z: 0.059844982}
+  m_Size: {x: 0.8823398, y: 1, z: 0.25707176}
+  m_Center: {x: 0.058830168, y: 0, z: -0.0064145373}
 --- !u!1 &797312860
 GameObject:
   m_ObjectHideFlags: 0
@@ -9482,6 +9478,27 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2980183197258728800, guid: 35df7df4d0b700c47ab560717c70588b,
+        type: 3}
+      propertyPath: inventoryPanel
+      value: 
+      objectReference: {fileID: 878509936}
+    - target: {fileID: 2980183197258728800, guid: 35df7df4d0b700c47ab560717c70588b,
+        type: 3}
+      propertyPath: itemSlotParent
+      value: 
+      objectReference: {fileID: 878509936}
+    - target: {fileID: 2980183197258728800, guid: 35df7df4d0b700c47ab560717c70588b,
+        type: 3}
+      propertyPath: activeItemImage
+      value: 
+      objectReference: {fileID: 272371512}
+    - target: {fileID: 2980183197258728800, guid: 35df7df4d0b700c47ab560717c70588b,
+        type: 3}
+      propertyPath: inventoryDefaultSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 665c35aa051a82a408263d86194dbbef,
+        type: 3}
     - target: {fileID: 7512218553097702895, guid: 35df7df4d0b700c47ab560717c70588b,
         type: 3}
       propertyPath: m_Name

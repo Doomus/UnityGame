@@ -175,6 +175,8 @@ GameObject:
   - component: {fileID: 4514256299730385490}
   - component: {fileID: 5035132610342707338}
   - component: {fileID: 4514256299730385491}
+  - component: {fileID: 2980183197258728800}
+  - component: {fileID: 8332465954472678413}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -304,6 +306,39 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &2980183197258728800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4514256299730385489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72ea0ea4c3deb645a5ada80d3ad001a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryPanel: {fileID: 0}
+  itemSlot: {fileID: 589155220601880321, guid: 168b37c58d2ec504b8e76703da83009e, type: 3}
+  itemSlotParent: {fileID: 0}
+  inventoryOpen: 0
+  activeItem: {fileID: 0}
+  items: []
+--- !u!114 &8332465954472678413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4514256299730385489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da01bac3200c3c441bedcb9139e58e8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  holdPOS: {fileID: 521535378843212327}
+  player: {fileID: 4514256299730385489}
 --- !u!1001 &482978829162244207
 PrefabInstance:
   m_ObjectHideFlags: 0

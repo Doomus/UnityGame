@@ -15,14 +15,22 @@ public class Inventory : MonoBehaviour
 
     public GameObject itemSlotParent;
 
-    public bool inventoryOpen = true;
+    public bool inventoryOpen;
+
+    public Item activeItem;
+
+    public GameObject activeItemImage;
+
+    public Sprite inventoryDefaultSprite;
+
+    public Image activeItemIcon;
 
     #region Singleton
     public static Inventory instance;
 
     private void Awake()
     {
-        inventoryPanel.SetActive(true);
+        inventoryPanel.SetActive(false);
 
         if(instance != null)
         {
@@ -32,16 +40,22 @@ public class Inventory : MonoBehaviour
     }
     #endregion
 
+    private void Start()
+    {
+        activeItemIcon = activeItemImage.GetComponent<Image>();
+        activeItemIcon.sprite = inventoryDefaultSprite;
+    }
+
+    public void SetActiveItemIcon(Sprite _sprite)
+    {
+        //activeItemIcon = activeItemImage.GetComponent<Image>();
+        activeItemIcon.sprite = _sprite;
+    }
+
     private void openInventory()
     {
         inventoryPanel.SetActive(true);
         inventoryOpen = true;
-        //foreach (Item item in items)
-        //{
-        //    Instantiate(itemSlot, itemSlotParent.transform);
-        //    Text textC = itemSlot.GetComponentInChildren<Text>();
-        //    textC.text = item.name;
-        //}
     }
 
     private void closeInventory()
@@ -66,6 +80,8 @@ public class Inventory : MonoBehaviour
         Debug.Log (item.name);
         Image itemSprite = newSlot.GetComponent<Image>();
         itemSprite.sprite = item.icon;
+        ItemID ID = newSlot.GetComponent<ItemID>();
+        ID._item = item;
 
         if (onItemChangedCallback != null)
         {
@@ -98,25 +114,6 @@ public class Inventory : MonoBehaviour
                 Debug.Log("closed");
                 closeInventory();
             }
-            //foreach (Item item in items)
-            //{
-            //    Debug.Log(item.name);
-            //}
         }
     }
-    //public List<Spell> spells = new List<Spell>();
-
-    //public List<Gun> guns = new List<Gun>();
-    //
-    //public void AddGun(Gun gun)
-    //{
-    //    guns.Add(gun);
-    //}
-    //
-    //public void RemoveGun(Gun gun)
-    //{
-    //    guns.Remove(gun);
-    //}
-
-
 }

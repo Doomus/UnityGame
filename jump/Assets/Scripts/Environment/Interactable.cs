@@ -18,7 +18,5 @@ public class Interactable : MonoBehaviour
         {
             InteractableTransform = transform;
         }
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, radius);
     }
 }
