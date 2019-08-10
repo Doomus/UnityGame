@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 7af423facfe2ea43b8c5f37c2d792e0f
     GuidInternal: 
-    m_lastTime: -8586372422391468961
+    m_lastTime: -8586361747542338826
     List:
     - name: Player_Footsteps
       guid: b638227105c24647a637b94229facfde
@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c25c8308f70d3a4db42882a23e14bd26
     GuidInternal: 
-    m_lastTime: -8586372437384895447
+    m_lastTime: -8586361747547908581
     List:
     - name: Player_Footsteps
       guid: c264bc6e98d7fd46ad38c464982ba09b
@@ -80,7 +80,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 57227516fe558749a1041c446ba6d6c7
     GuidInternal: 
-    m_lastTime: -8586372548802564551
+    m_lastTime: -8586361747542199091
     List:
     - name: Player_Footsteps
       guid: fd5dba627523b64ab2851a2dfe2aea19
@@ -116,12 +116,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /jump_WwiseProject
-  - /jump_WwiseProject/Events
-  - /jump_WwiseProject/Events/Default Work Unit
   - /jump_WwiseProject/SoundBanks
   - /jump_WwiseProject/SoundBanks/Default Work Unit
-  - /jump_WwiseProject/Switches
-  - /jump_WwiseProject/Switches/Default Work Unit
-  - /jump_WwiseProject/Switches/Default Work Unit/Player_Footsteps
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

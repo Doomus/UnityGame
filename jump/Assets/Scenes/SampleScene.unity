@@ -6105,7 +6105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 006906cdda16cef479ef644f6f4782c5, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 006906cdda16cef479ef644f6f4782c5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6155,7 +6155,7 @@ Animator:
   m_GameObject: {fileID: 529087487}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 991ab1a36e6295f488ad8ad7f4455460, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8013866560c26e64ebc9a8704ce35842, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6205,7 +6205,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aefe66eb7f8296447bafc18aef6e8b76, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -11395,7 +11395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 006906cdda16cef479ef644f6f4782c5, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 006906cdda16cef479ef644f6f4782c5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13003,7 +13003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 006906cdda16cef479ef644f6f4782c5, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 006906cdda16cef479ef644f6f4782c5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13836,6 +13836,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511378027}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1519933122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 006906cdda16cef479ef644f6f4782c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 529087485}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1519933126
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519933122}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 006906cdda16cef479ef644f6f4782c5, type: 3}
 --- !u!1 &1526739768
 GameObject:
   m_ObjectHideFlags: 0
@@ -14268,7 +14288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6400000, guid: bc3547d22d2d8174d871df107e37c203, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: bc3547d22d2d8174d871df107e37c203, type: 3}
       propertyPath: m_Enabled
