@@ -28,6 +28,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Grappling_Hook_Fire_Hiss_Open_Space" ID="{625D690F-B061-4769-8BD4-6F43A94729DF}">
+					<ChildrenList>
+						<Action Name="" ID="{169EE4FA-E79B-4742-A280-7CF42B600FBC}" ShortID="464465866">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grappling Hook_Fire_Mechanical 1 Open Space" ID="{A32CD0B1-9BE6-417A-A54F-A182941346D5}" WorkUnitID="{04F09A1D-F8CE-4529-8336-D900DDF17D02}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7FF49DDF-C77B-4628-800F-24C7D163B557}" ShortID="139132477">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grappling Hook_Fire_Shot 1_Open Space" ID="{7919D586-D57D-4276-A24C-D34964037F84}" WorkUnitID="{04F09A1D-F8CE-4529-8336-D900DDF17D02}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0E73827B-94E2-4FE9-86A9-E224FD3CC6AA}" ShortID="363988962">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grappling Hook_Hiss Release 1_Open Space" ID="{406A0BDC-C70D-433D-8B4D-54501CF03064}" WorkUnitID="{04F09A1D-F8CE-4529-8336-D900DDF17D02}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

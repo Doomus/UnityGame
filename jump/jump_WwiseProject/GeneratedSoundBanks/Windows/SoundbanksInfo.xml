@@ -16,6 +16,28 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="1408719242" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Grappling_Hook_Fire_Hiss_Open_Space</ObjectPath>
+			<ShortName>Grappling_Hook_Fire_Hiss_Open_Space</ShortName>
+			<Path>Grappling_Hook_Fire_Hiss_Open_Space.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1408719242" Name="Grappling_Hook_Fire_Hiss_Open_Space" ObjectPath="\Events\Default Work Unit\Grappling_Hook_Fire_Hiss_Open_Space" DurationType="OneShot" DurationMin="3.886569" DurationMax="4.621935"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="7458985" Language="SFX">
+					<ShortName>Grappling Hook_Hiss Release 1_Open Space.wav</ShortName>
+					<Path>SFX\Grappling Hook_Hiss Release 1_Open Space_10C4C929.wem</Path>
+				</File>
+				<File Id="166479240" Language="SFX">
+					<ShortName>Grappling Hook_Fire_Shot 1_Open Space.wav</ShortName>
+					<Path>SFX\Grappling Hook_Fire_Shot 1_Open Space_10C4C929.wem</Path>
+				</File>
+				<File Id="514518365" Language="SFX">
+					<ShortName>Grappling Hook_Fire_Mechanical 1 Open Space.wav</ShortName>
+					<Path>SFX\Grappling Hook_Fire_Mechanical 1 Open Space_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1587986418" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Grappling_Hook_Fire_Hiss</ObjectPath>
 			<ShortName>Grappling_Hook_Fire_Hiss</ShortName>

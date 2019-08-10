@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 7af423facfe2ea43b8c5f37c2d792e0f
     GuidInternal: 
-    m_lastTime: -8586366459000742301
+    m_lastTime: -8586362889977409081
     List:
     - name: Grappling_Hook_Fire_Hiss
       guid: 76ea3a4e2b53de488a1cb74b68735646
@@ -42,12 +42,21 @@ MonoBehaviour:
       - ElementName: Grappling_Hook_Fire_Hiss
         ObjectType: 7
       Path: Default Work Unit\Grappling_Hook_Fire_Hiss
+    - name: Grappling_Hook_Fire_Hiss_Open_Space
+      guid: 17db01559a26b144932024a101a70d87
+      id: 1408719242
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Grappling_Hook_Fire_Hiss_Open_Space
+        ObjectType: 7
+      Path: Default Work Unit\Grappling_Hook_Fire_Hiss_Open_Space
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: c25c8308f70d3a4db42882a23e14bd26
     GuidInternal: 
-    m_lastTime: -8586366459000702318
+    m_lastTime: -8586362895907208396
     List:
     - name: Grappling_Hook_Fire_Hiss
       guid: 4fe34cc4d3dad14daddf66cb515ea42a
@@ -61,6 +70,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.599116
       minDuration: 2.696291
+    - name: Grappling_Hook_Fire_Hiss_Open_Space
+      guid: 0f695d6261b069478bd46f43a94729df
+      id: 1408719242
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Grappling_Hook_Fire_Hiss_Open_Space
+        ObjectType: 3
+      Path: Default Work Unit\Grappling_Hook_Fire_Hiss_Open_Space
+      maxAttenuation: 0
+      maxDuration: 4.621935
+      minDuration: 3.886569
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 

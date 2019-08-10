@@ -10,6 +10,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Grappling_Hook_Fire_Hiss_Open_Space" ID="{5501DB17-269A-44B1-9320-24A101A70D87}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Grappling_Hook_Fire_Hiss_Open_Space" ID="{625D690F-B061-4769-8BD4-6F43A94729DF}" WorkUnitID="{08835CC2-0DF7-4D3A-B428-82A23E14BD26}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

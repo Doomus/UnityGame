@@ -5,6 +5,7 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\Azeray\Documents\Game Projects\Freelance Initiative\Audio\Sound Effects\SFX\Tools\G Hook\Grappling Hook_Fire\Bounced Files"/>
 				<Property Name="Event Action List\{20806876-F569-4786-A484-45F16BA85672}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{625D690F-B061-4769-8BD4-6F43A94729DF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C44CE34F-DAD3-4DD1-ADDF-66CB515EA42A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -24,7 +25,7 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="NkvydXFfq0Gwgo56bp/Ha9jcUzF1pjFNj85WGrgIqj0="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="duo6TitT3kiKHLdLaHNWRg=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="duo6TitT3kiKHLdLaHNWRhfbAVWaJrFEkyAkoQGnDYc="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="IntegrityReport\AudioFilesAndSources" Type="bool" Value="True"/>
 				<Property Name="IntegrityReport\BrokenReferences" Type="bool" Value="True"/>
@@ -64,7 +65,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ83nrhg196eNDn4dY8hTLDRD9NYo8sMXzTaqC9znPTiBS"/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="9zQiTCqYO0GzZn6jTAkxW2Aw1adg4SdDtpOvbSuh9GcdmvAEzvgpRYM22QDd8X0CR8kCHk4Qj0eNjYmk0/bNIhj5qOZUGiVIrQxCCumFJtuLwRY3A8PySLw+0+a+hIOC+6Sb3xX5K0qElVHLkHbvF4K5G8kCXc5LjQGFiiY6U6Y="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="9zQiTCqYO0GzZn6jTAkxW2Aw1adg4SdDtpOvbSuh9GcdmvAEzvgpRYM22QDd8X0CGPmo5lQaJUitDEIK6YUm24vBFjcDw/JIvD7T5r6Eg4L7pJvfFfkrSoSVUcuQdu8XgrkbyQJdzkuNAYWKJjpTpg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="wlyDCPcNOk20KIKiPhS9Jg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>

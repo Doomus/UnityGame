@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1408719242	Grappling_Hook_Fire_Hiss_Open_Space			\Default Work Unit\Grappling_Hook_Fire_Hiss_Open_Space	
+
+Effect plug-ins	ID	Name	Type				Notes
+	594770464	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
+	1060800904	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
+	3043085106	High_Impact	Wwise Compressor			
+	4269441574	Heavy_Metal	Wwise Flanger			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7458985	Grappling Hook_Hiss Release 1_Open Space	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Mac\SFX\Grappling Hook_Hiss Release 1_Open Space_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Tools\Grappling Hook\Grappling Hook_Air Hiss Release\Grappling Hook_Hiss Release 1_Open Space		601088
+	166479240	Grappling Hook_Fire_Shot 1_Open Space	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Mac\SFX\Grappling Hook_Fire_Shot 1_Open Space_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Tools\Grappling Hook\Grappling Hook_Fire_Shot\Grappling Hook_Fire_Shot 1_Open Space		813824
+	514518365	Grappling Hook_Fire_Mechanical 1 Open Space	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Mac\SFX\Grappling Hook_Fire_Mechanical 1 Open Space_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Tools\Grappling Hook\Grappling Hook Fire_Mechanical\Grappling Hook_Fire_Mechanical 1 Open Space		182888
+

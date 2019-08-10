@@ -14,12 +14,14 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID GRAPPLING_HOOK_FIRE_HISS = 1587986418U;
+        static const AkUniqueID GRAPPLING_HOOK_FIRE_HISS_OPEN_SPACE = 1408719242U;
     } // namespace EVENTS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID GRAPPLING_HOOK_FIRE_HISS = 1587986418U;
+        static const AkUniqueID GRAPPLING_HOOK_FIRE_HISS_OPEN_SPACE = 1408719242U;
     } // namespace BANKS
 
     namespace BUSSES
