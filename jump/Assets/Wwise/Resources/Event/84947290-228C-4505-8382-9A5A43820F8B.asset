@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d36a190109e15409d898867bc0f8a9, type: 3}
+  m_Name: 84947290-228C-4505-8382-9A5A43820F8B
+  m_EditorClassIdentifier: 
+  objectName: SpaceShip_Roomtone
+  id: 2009406807
+  guid: 84947290-228C-4505-8382-9A5A43820F8B

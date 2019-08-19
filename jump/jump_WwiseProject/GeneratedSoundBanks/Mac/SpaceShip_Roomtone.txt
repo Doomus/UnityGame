@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2009406807	SpaceShip_Roomtone			\Default Work Unit\SpaceShip_Roomtone	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	627403125	Ambience_Space Ship_RoomTone A1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Mac\SFX\Ambience_Space Ship_RoomTone A1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\SpaceShip\Ambience_Space Ship_RoomTone A1		10728512
+
