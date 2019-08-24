@@ -4,14 +4,15 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Grappling_Hook" Hash="4263256221" Timestamp="1564958650"/>
-				<File Name="Grappling_Hook_Fire_Hiss" Hash="2327802553" Timestamp="1565317897"/>
-				<File Name="Grappling_Hook_Fire_Hiss_Open_Space" Hash="4178020309" Timestamp="1565319263"/>
-				<File Name="Init" Hash="2307437896" Timestamp="1565319263"/>
+				<File Name="Grappling_Hook_Fire_Hiss" Hash="3841512440" Timestamp="1566684777"/>
+				<File Name="Grappling_Hook_Fire_Hiss_Open_Space" Hash="3141668153" Timestamp="1566684777"/>
+				<File Name="Init" Hash="2307437896" Timestamp="1566684777"/>
+				<File Name="Item_Pick_Up" Hash="2631828779" Timestamp="1566684777"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3955827336" Timestamp="1565319263"/>
+				<File Name="" Hash="2551439707" Timestamp="1566684777"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -19,14 +20,15 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Grappling_Hook" Hash="4263256221" Timestamp="1564958651"/>
-				<File Name="Grappling_Hook_Fire_Hiss" Hash="2327802553" Timestamp="1565317897"/>
-				<File Name="Grappling_Hook_Fire_Hiss_Open_Space" Hash="4178020309" Timestamp="1565319263"/>
-				<File Name="Init" Hash="2008294838" Timestamp="1565319263"/>
+				<File Name="Grappling_Hook_Fire_Hiss" Hash="3841512440" Timestamp="1566684777"/>
+				<File Name="Grappling_Hook_Fire_Hiss_Open_Space" Hash="3141668153" Timestamp="1566684777"/>
+				<File Name="Init" Hash="2008294838" Timestamp="1566684777"/>
+				<File Name="Item_Pick_Up" Hash="2631828779" Timestamp="1566684777"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1125693462" Timestamp="1565319263"/>
+				<File Name="" Hash="2995364949" Timestamp="1566684777"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

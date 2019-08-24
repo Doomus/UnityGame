@@ -60,5 +60,19 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="3816576768" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Item_Pick_Up</ObjectPath>
+			<ShortName>Item_Pick_Up</ShortName>
+			<Path>Item_Pick_Up.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3816576768" Name="Item_Pick_Up" ObjectPath="\Events\Default Work Unit\Item_Pick_Up" DurationType="OneShot" DurationMin="5.729333" DurationMax="5.729333"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="338558315" Language="SFX">
+					<ShortName>Item Pick Up_A1.wav</ShortName>
+					<Path>SFX\Item Pick Up_A1_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

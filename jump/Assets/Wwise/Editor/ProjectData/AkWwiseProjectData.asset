@@ -24,14 +24,14 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 79eb860d7de9e3439f8758f214cb0d10
     GuidInternal: 
-    m_lastTime: -8586366513201970855
+    m_lastTime: -8586349230839694608
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 7af423facfe2ea43b8c5f37c2d792e0f
     GuidInternal: 
-    m_lastTime: -8586362889977409081
+    m_lastTime: -8586349221008544029
     List:
     - name: Grappling_Hook_Fire_Hiss
       guid: 76ea3a4e2b53de488a1cb74b68735646
@@ -51,12 +51,21 @@ MonoBehaviour:
       - ElementName: Grappling_Hook_Fire_Hiss_Open_Space
         ObjectType: 7
       Path: Default Work Unit\Grappling_Hook_Fire_Hiss_Open_Space
+    - name: Item_Pick_Up
+      guid: ed6ae81ed0d6a74598dc14f2342ceb5e
+      id: 3816576768
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Item_Pick_Up
+        ObjectType: 7
+      Path: Default Work Unit\Item_Pick_Up
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: c25c8308f70d3a4db42882a23e14bd26
     GuidInternal: 
-    m_lastTime: -8586362895907208396
+    m_lastTime: -8586349222404201084
     List:
     - name: Grappling_Hook_Fire_Hiss
       guid: 4fe34cc4d3dad14daddf66cb515ea42a
@@ -82,6 +91,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 4.621935
       minDuration: 3.886569
+    - name: Item_Pick_Up
+      guid: efc9ad1998626a49b66425e692781ac4
+      id: 3816576768
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Item_Pick_Up
+        ObjectType: 3
+      Path: Default Work Unit\Item_Pick_Up
+      maxAttenuation: 0
+      maxDuration: 5.729333
+      minDuration: 5.729333
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -101,7 +122,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 57227516fe558749a1041c446ba6d6c7
     GuidInternal: 
-    m_lastTime: -8586366550707434642
+    m_lastTime: -8586349230837655780
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu

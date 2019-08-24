@@ -17,6 +17,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Item_Pick_Up" ID="{1EE86AED-D6D0-45A7-98DC-14F2342CEB5E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Item_Pick_Up" ID="{19ADC9EF-6298-496A-B664-25E692781AC4}" WorkUnitID="{08835CC2-0DF7-4D3A-B428-82A23E14BD26}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

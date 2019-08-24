@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{27C5C12E-DE61-45E1-A76B-D8F401E9FB59}" SchemaVersion="94" RootDocumentID="{A7D53060-E160-4327-B693-AF6D2BA1F467}">
+	<AudioObjects>
+		<WorkUnit Name="Items" ID="{27C5C12E-DE61-45E1-A76B-D8F401E9FB59}" OwnerID="{4C2234F7-982A-413B-B366-7EA34C09315B}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Item Pick Up" ID="{A157E293-18F8-4EFF-8555-C29022443AD3}" ShortID="600036344">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Item Pick Up_A1" ID="{44455860-3402-4589-A6E9-A3FD3B9821F9}" ShortID="1022496089">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Item Pick Up_A1" ID="{B9E6F69A-A856-4DB2-94C1-5F6FA75F4143}" ShortID="338558315">
+									<Language>SFX</Language>
+									<AudioFile>Item Pick Up_A1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Item Pick Up_A1" ID="{B9E6F69A-A856-4DB2-94C1-5F6FA75F4143}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

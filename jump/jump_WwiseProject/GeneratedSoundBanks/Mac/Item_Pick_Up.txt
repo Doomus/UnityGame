@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3816576768	Item_Pick_Up			\Default Work Unit\Item_Pick_Up	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	338558315	Item Pick Up_A1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\.cache\Mac\SFX\Item Pick Up_A1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Items\Item Pick Up\Item Pick Up_A1		1100096
+
