@@ -75,7 +75,7 @@
 			<ShortName>SpaceShip_Roomtone</ShortName>
 			<Path>SpaceShip_Roomtone.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2009406807" Name="SpaceShip_Roomtone" ObjectPath="\Events\Default Work Unit\SpaceShip_Roomtone" MaxAttenuation="40.000000" DurationType="Infinite"/>
+				<Event Id="2009406807" Name="SpaceShip_Roomtone" ObjectPath="\Events\Default Work Unit\SpaceShip_Roomtone" MaxAttenuation="47.000000" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="627403125" Language="SFX">

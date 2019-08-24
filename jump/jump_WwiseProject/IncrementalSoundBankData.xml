@@ -3,28 +3,28 @@
 	<Platform GUID="{75F24B36-5F71-41AB-B082-8E7A6E9FC76B}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2279659568" Timestamp="1566174827"/>
-				<File Name="Player_Footsteps" Hash="3996124901" Timestamp="1566174827"/>
-				<File Name="SpaceShip_Roomtone" Hash="682079692" Timestamp="1566185096"/>
+				<File Name="Init" Hash="2279659568" Timestamp="1566675492"/>
+				<File Name="Player_Footsteps" Hash="2154069058" Timestamp="1566675492"/>
+				<File Name="SpaceShip_Roomtone" Hash="1305357658" Timestamp="1566677067"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3566646413" Timestamp="1566185096"/>
+				<File Name="" Hash="383233820" Timestamp="1566677067"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{3153DCD8-A675-4D31-8FCE-561AB808AA3D}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="1182415902" Timestamp="1566174828"/>
-				<File Name="Player_Footsteps" Hash="3996124901" Timestamp="1566174828"/>
-				<File Name="SpaceShip_Roomtone" Hash="682079692" Timestamp="1566185096"/>
+				<File Name="Init" Hash="1182415902" Timestamp="1566675493"/>
+				<File Name="Player_Footsteps" Hash="2154069058" Timestamp="1566675493"/>
+				<File Name="SpaceShip_Roomtone" Hash="1305357658" Timestamp="1566677067"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2289500523" Timestamp="1566185096"/>
+				<File Name="" Hash="3291823094" Timestamp="1566677067"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
