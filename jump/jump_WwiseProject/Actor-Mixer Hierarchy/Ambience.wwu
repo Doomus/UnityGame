@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A45F1592-E3E0-4726-A2DE-A69D5EE510DE}" SchemaVersion="94" RootDocumentID="{A7D53060-E160-4327-B693-AF6D2BA1F467}">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{A45F1592-E3E0-4726-A2DE-A69D5EE510DE}" OwnerID="{F388C58C-58EA-44B3-97DE-7205616E883A}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="SpaceShip" ID="{9627F79C-CFED-47FB-BDF9-CF5BD6A42034}" ShortID="979863622">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Ambience_Space Ship_RoomTone A1" ID="{D96992E5-4F4D-498F-A430-9ECBAA6265EB}" ShortID="503453922">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Ambience_SpaceShip_Roomtone" ID="{2CE0CC27-C53B-4273-81B7-8595A9D35A20}" WorkUnitID="{D88A14BF-B2D2-41A8-BBB9-082653DF978C}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A525BF5-F157-47C6-BF34-AC0BDF5DE32F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D86EB79-E97D-43E3-9F87-58F214CB0D10}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambience_Space Ship_RoomTone A1" ID="{9A71B920-1CF5-460E-A064-A8A8634BD28C}" ShortID="627403125">
+									<Language>SFX</Language>
+									<AudioFile>Ambience_Space Ship_RoomTone A1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambience_Space Ship_RoomTone A1" ID="{9A71B920-1CF5-460E-A064-A8A8634BD28C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

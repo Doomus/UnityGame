@@ -3,8 +3,9 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{A486F9FB-ABB9-4EF5-8823-8739A26FF9C0}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\Azeray\Documents\Game Projects\Freelance Initiative\Audio\Sound Effects\Foley\Footsteps\Player Footsteps\Bounced Files"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\Azeray\Documents\Game Projects\Freelance Initiative\Audio\Sound Effects\Ambience\Space Ship\Ambience_RoomTone\Bounced Files"/>
 				<Property Name="Event Action List\{6EBC64C2-D798-46FD-AD38-C464982BA09B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{84947290-228C-4505-8382-9A5A43820F8B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -20,10 +21,10 @@
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="NkvydXFfq0Gwgo56bp/Ha9jcUzF1pjFNj85WGrgIqj0="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="tjgicQXCRkemN7lCKfrP3g=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="tjgicQXCRkemN7lCKfrP3qHgaNBE+jZLgRyFpYYHxnc="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
@@ -46,7 +47,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value="vxSK2NKyqEG7uQgmU9+XjA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_16_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_17_1" Type="string" Value=""/>
@@ -55,7 +56,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="eeuGDX3p40Ofh1jyFMsNEA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="YDDVp2DhJ0O2k69tK6H0Z95VnE/PQAxGvb+lBOcZfsBJC20RsYP6TacvozKVCcYv"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="YDDVp2DhJ0O2k69tK6H0Z4zFiPPqWLNEl95yBWFuiDqSFV+k4OMmR6Lepp1e5RDenPcnlu3P+0e9+c9b1qQgNA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="wlyDCPcNOk20KIKiPhS9Jg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="VyJ1Fv5Vh0mhBBxEa6bWx/1dumJ1I7ZKsoUaLf4q6hk="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>

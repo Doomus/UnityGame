@@ -10,6 +10,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="SpaceShip_Roomtone" ID="{D068E0A1-FA44-4B36-811C-85A58607C677}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SpaceShip_Roomtone" ID="{84947290-228C-4505-8382-9A5A43820F8B}" WorkUnitID="{08835CC2-0DF7-4D3A-B428-82A23E14BD26}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

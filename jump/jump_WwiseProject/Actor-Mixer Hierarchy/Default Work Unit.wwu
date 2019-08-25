@@ -310,6 +310,11 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Ambience" ID="{F388C58C-58EA-44B3-97DE-7205616E883A}" ShortID="535652808">
+					<ChildrenList>
+						<WorkUnit Name="Ambience" ID="{A45F1592-E3E0-4726-A2DE-A69D5EE510DE}" PersistMode="Reference"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

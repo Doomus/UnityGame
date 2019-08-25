@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="SpaceShip_Roomtone" ID="{84947290-228C-4505-8382-9A5A43820F8B}">
+					<ChildrenList>
+						<Action Name="" ID="{B0156B18-40B8-4999-9635-1E137F058D08}" ShortID="416079600">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_Space Ship_RoomTone A1" ID="{D96992E5-4F4D-498F-A430-9ECBAA6265EB}" WorkUnitID="{A45F1592-E3E0-4726-A2DE-A69D5EE510DE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
