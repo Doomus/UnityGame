@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1566683801" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1566691459" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Actor-Mixer Hierarchy\Doors.wwu" DateLow="1566691459" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Actor-Mixer Hierarchy\Items.wwu" DateLow="1566684784" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Actor-Mixer Hierarchy\Tools.wwu" DateLow="1566683801" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1566683801" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1563163136" DateHigh="0"/>
@@ -10,10 +12,10 @@
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1563163136" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1563163136" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Effects\Factory Effects.wwu" DateLow="1566683801" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Events\Default Work Unit.wwu" DateLow="1566683801" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Events\Default Work Unit.wwu" DateLow="1566691459" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1563163136" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1563163136" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\jump_WwiseProject.Danial.wsettings" DateLow="1566683801" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\jump_WwiseProject.Danial.wsettings" DateLow="1566691529" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\jump_WwiseProject.wproj" DateLow="1563163136" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1566683801" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1563163136" DateHigh="0"/>
@@ -21,7 +23,7 @@
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1563163136" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1563163136" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Queries\Factory Queries.wwu" DateLow="1563163136" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1566683801" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1566691459" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1563163136" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\States\Default Work Unit.wwu" DateLow="1563163136" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\UnityGame\jump\jump_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1566683801" DateHigh="0"/>

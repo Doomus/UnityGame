@@ -31,8 +31,17 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 7af423facfe2ea43b8c5f37c2d792e0f
     GuidInternal: 
-    m_lastTime: -8586349221008544029
+    m_lastTime: -8586349154263449349
     List:
+    - name: Doors_Locked
+      guid: c22bf8662171cb408c162bed5867a813
+      id: 3564500029
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Doors_Locked
+        ObjectType: 7
+      Path: Default Work Unit\Doors_Locked
     - name: Grappling_Hook_Fire_Hiss
       guid: 76ea3a4e2b53de488a1cb74b68735646
       id: 1587986418
@@ -65,8 +74,20 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c25c8308f70d3a4db42882a23e14bd26
     GuidInternal: 
-    m_lastTime: -8586349222404201084
+    m_lastTime: -8586349154263489328
     List:
+    - name: Doors_Locked
+      guid: c72de8164fe96741a0d9db9d9760e5b1
+      id: 3564500029
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Doors_Locked
+        ObjectType: 3
+      Path: Default Work Unit\Doors_Locked
+      maxAttenuation: 0
+      maxDuration: 2.085333
+      minDuration: 2.085333
     - name: Grappling_Hook_Fire_Hiss
       guid: 4fe34cc4d3dad14daddf66cb515ea42a
       id: 1587986418

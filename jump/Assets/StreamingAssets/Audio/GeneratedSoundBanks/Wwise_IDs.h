@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID DOORS_LOCKED = 3564500029U;
         static const AkUniqueID GRAPPLING_HOOK_FIRE_HISS = 1587986418U;
         static const AkUniqueID GRAPPLING_HOOK_FIRE_HISS_OPEN_SPACE = 1408719242U;
         static const AkUniqueID ITEM_PICK_UP = 3816576768U;
@@ -21,6 +22,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID DOORS_LOCKED = 3564500029U;
         static const AkUniqueID GRAPPLING_HOOK_FIRE_HISS = 1587986418U;
         static const AkUniqueID GRAPPLING_HOOK_FIRE_HISS_OPEN_SPACE = 1408719242U;
         static const AkUniqueID ITEM_PICK_UP = 3816576768U;

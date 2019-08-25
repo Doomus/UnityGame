@@ -7,6 +7,7 @@
 					<ChildrenList>
 						<WorkUnit Name="Tools" ID="{04F09A1D-F8CE-4529-8336-D900DDF17D02}" PersistMode="Reference"/>
 						<WorkUnit Name="Items" ID="{27C5C12E-DE61-45E1-A76B-D8F401E9FB59}" PersistMode="Reference"/>
+						<WorkUnit Name="Doors" ID="{9CA83508-D0E4-4170-8477-A05BEE20FB41}" PersistMode="Reference"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

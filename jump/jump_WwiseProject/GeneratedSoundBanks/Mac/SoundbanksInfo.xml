@@ -60,6 +60,20 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="3564500029" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Doors_Locked</ObjectPath>
+			<ShortName>Doors_Locked</ShortName>
+			<Path>Doors_Locked.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3564500029" Name="Doors_Locked" ObjectPath="\Events\Default Work Unit\Doors_Locked" DurationType="OneShot" DurationMin="2.085333" DurationMax="2.085333"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="149194061" Language="SFX">
+					<ShortName>Door Locked_A1.wav</ShortName>
+					<Path>SFX\Door Locked_A1_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="3816576768" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Item_Pick_Up</ObjectPath>
 			<ShortName>Item_Pick_Up</ShortName>
