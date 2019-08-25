@@ -12,14 +12,111 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aa1c221aae18894d9a2cdd686500142, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 80005c71c7522f41803ba7c0099613e1
+    GuidInternal: 
+    m_lastTime: -8586384437488623617
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 79eb860d7de9e3439f8758f214cb0d10
+    GuidInternal: 
+    m_lastTime: -8586384437488696771
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7af423facfe2ea43b8c5f37c2d792e0f
+    GuidInternal: 
+    m_lastTime: -8586361747542338826
+    List:
+    - name: Player_Footsteps
+      guid: b638227105c24647a637b94229facfde
+      id: 1730208058
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player_Footsteps
+        ObjectType: 7
+      Path: Default Work Unit\Player_Footsteps
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c25c8308f70d3a4db42882a23e14bd26
+    GuidInternal: 
+    m_lastTime: -8586361747547908581
+    List:
+    - name: Player_Footsteps
+      guid: c264bc6e98d7fd46ad38c464982ba09b
+      id: 1730208058
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player_Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\Player_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.666334
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c59edce83322f3449599ac1adeee3a1f
+    GuidInternal: 
+    m_lastTime: -8586384437488709828
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 140a932bf4b15b4a85905114e43d2f83
+    GuidInternal: 
+    m_lastTime: -8586384437488643513
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 57227516fe558749a1041c446ba6d6c7
+    GuidInternal: 
+    m_lastTime: -8586361747542199091
+    List:
+    - name: Player_Footsteps
+      guid: fd5dba627523b64ab2851a2dfe2aea19
+      id: 1730208058
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player_Footsteps
+        ObjectType: 11
+      Path: Default Work Unit\Player_Footsteps
+      values:
+      - name: Player_Footsteps_Metal
+        guid: ad68f4049a947d4481438396c0e8a144
+        id: 1254697330
+        PathAndIcons:
+        - ElementName: Player_Footsteps_Metal
+          ObjectType: 10
+      - name: Player_Footsteps_Metal_Zero_G
+        guid: 1f0eae69ab37f44888d717f06637cc35
+        id: 1191848353
+        PathAndIcons:
+        - ElementName: Player_Footsteps_Metal_Zero_G
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 4f9dfea596e76c4c8b7e1a963bd9869c
+    GuidInternal: 
+    m_lastTime: -8586384437488633520
+    List: []
+  ExpandedItems:
+  - /jump_WwiseProject
+  - /jump_WwiseProject/SoundBanks
+  - /jump_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

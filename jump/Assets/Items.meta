@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+:jump/Assets/Items.meta
 guid: b311207cce3b57f47bfa3ce8804f80ea
+
+guid: 56c2443cda4f0344c93dd64e65835853
+:jump/Assets/StreamingAssets/Audio/GeneratedSoundBanks.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

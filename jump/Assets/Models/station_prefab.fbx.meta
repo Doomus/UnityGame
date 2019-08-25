@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: 84aa374eafc18c8498544dd1fdcd3dcd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: connectingPassage_01
+    100002: connectingPassage_02
+    100004: connectingPassages
+    100006: container
+    100008: container_01
+    100010: container_lid_01
+    100012: door_inner
+    100014: door_inner_left
+    100016: door_inner_right
+    100018: innerRing
+    100020: innerRing_dome
+    100022: innerRing_floor
+    100024: innerRing_innerWall
+    100026: innerRing_innerWall_01
+    100028: innerRing_innerWall_02
+    100030: innerRing_innerWall_03
+    100032: innerRing_innerWall_04
+    100034: innerRing_outerWall
+    100036: innerRing_outerWall_01
+    100038: innerRing_outerWall_02
+    100040: innerRing_outerWall_03
+    100042: innerRing_outerWall_04
+    100044: innerRing_outerWall_05
+    100046: innerRing_roof
+    100048: outerRing
+    100050: outerRing_dock_01
+    100052: outerRing_dock_02
+    100054: outerRing_dock_03
+    100056: outerRing_dock_04
+    100058: outerRing_dock_05
+    100060: outerRing_dock_06
+    100062: outerRing_dock_07
+    100064: outerRing_dock_08
+    100066: outerRing_docks
+    100068: outerRing_floor
+    100070: outerRing_floor_01
+    100072: outerRing_floor_02
+    100074: outerRing_innerWall1
+    100076: outerRing_innerWall_01
+    100078: outerRing_innerWall_02
+    100080: outerRing_innerWall_03
+    100082: outerRing_innerWall_04
+    100084: outerRing_innerWall_05
+    100086: outerRing_innerWall_06
+    100088: outerRing_innerWall_07
+    100090: outerRing_innerWall_08
+    100092: outerRing_outerWall
+    100094: outerRing_roof
+    100096: panel_broken
+    100098: pCube1
+    100100: pCube1 1
+    100102: pCube2
+    100104: pCube2 1
+    100106: pCube3
+    100108: pCube3 1
+    100110: pCube4
+    100112: pCube4 1
+    100114: rubble_01
+    100116: rubble_02
+    100118: spaceShip
+    100120: spaceShip 1
+    100122: startPoint
+    100124: //RootNode
+    100126: Wall_innerDoor
+    100128: Wall_outerDoor
+    400000: connectingPassage_01
+    400002: connectingPassage_02
+    400004: connectingPassages
+    400006: container
+    400008: container_01
+    400010: container_lid_01
+    400012: door_inner
+    400014: door_inner_left
+    400016: door_inner_right
+    400018: innerRing
+    400020: innerRing_dome
+    400022: innerRing_floor
+    400024: innerRing_innerWall
+    400026: innerRing_innerWall_01
+    400028: innerRing_innerWall_02
+    400030: innerRing_innerWall_03
+    400032: innerRing_innerWall_04
+    400034: innerRing_outerWall
+    400036: innerRing_outerWall_01
+    400038: innerRing_outerWall_02
+    400040: innerRing_outerWall_03
+    400042: innerRing_outerWall_04
+    400044: innerRing_outerWall_05
+    400046: innerRing_roof
+    400048: outerRing
+    400050: outerRing_dock_01
+    400052: outerRing_dock_02
+    400054: outerRing_dock_03
+    400056: outerRing_dock_04
+    400058: outerRing_dock_05
+    400060: outerRing_dock_06
+    400062: outerRing_dock_07
+    400064: outerRing_dock_08
+    400066: outerRing_docks
+    400068: outerRing_floor
+    400070: outerRing_floor_01
+    400072: outerRing_floor_02
+    400074: outerRing_innerWall1
+    400076: outerRing_innerWall_01
+    400078: outerRing_innerWall_02
+    400080: outerRing_innerWall_03
+    400082: outerRing_innerWall_04
+    400084: outerRing_innerWall_05
+    400086: outerRing_innerWall_06
+    400088: outerRing_innerWall_07
+    400090: outerRing_innerWall_08
+    400092: outerRing_outerWall
+    400094: outerRing_roof
+    400096: panel_broken
+    400098: pCube1
+    400100: pCube1 1
+    400102: pCube2
+    400104: pCube2 1
+    400106: pCube3
+    400108: pCube3 1
+    400110: pCube4
+    400112: pCube4 1
+    400114: rubble_01
+    400116: rubble_02
+    400118: spaceShip
+    400120: spaceShip 1
+    400122: startPoint
+    400124: //RootNode
+    400126: Wall_innerDoor
+    400128: Wall_outerDoor
+    2100000: lambert1
+    2300000: connectingPassage_01
+    2300002: connectingPassage_02
+    2300004: container_01
+    2300006: container_lid_01
+    2300008: door_inner_left
+    2300010: door_inner_right
+    2300012: innerRing_dome
+    2300014: innerRing_floor
+    2300016: innerRing_innerWall_01
+    2300018: innerRing_innerWall_02
+    2300020: innerRing_innerWall_03
+    2300022: innerRing_innerWall_04
+    2300024: innerRing_outerWall_01
+    2300026: innerRing_outerWall_02
+    2300028: innerRing_outerWall_03
+    2300030: innerRing_outerWall_04
+    2300032: innerRing_outerWall_05
+    2300034: innerRing_roof
+    2300036: outerRing_dock_01
+    2300038: outerRing_dock_02
+    2300040: outerRing_dock_03
+    2300042: outerRing_dock_04
+    2300044: outerRing_dock_05
+    2300046: outerRing_dock_06
+    2300048: outerRing_dock_07
+    2300050: outerRing_dock_08
+    2300052: outerRing_floor
+    2300054: outerRing_floor_01
+    2300056: outerRing_floor_02
+    2300058: outerRing_innerWall_01
+    2300060: outerRing_innerWall_02
+    2300062: outerRing_innerWall_03
+    2300064: outerRing_innerWall_04
+    2300066: outerRing_innerWall_05
+    2300068: outerRing_innerWall_06
+    2300070: outerRing_innerWall_07
+    2300072: outerRing_innerWall_08
+    2300074: outerRing_outerWall
+    2300076: outerRing_roof
+    2300078: panel_broken
+    2300080: pCube1
+    2300082: pCube1 1
+    2300084: pCube2
+    2300086: pCube2 1
+    2300088: pCube3
+    2300090: pCube3 1
+    2300092: pCube4
+    2300094: pCube4 1
+    2300096: spaceShip 1
+    2300098: Wall_innerDoor
+    2300100: Wall_outerDoor
+    3300000: connectingPassage_01
+    3300002: connectingPassage_02
+    3300004: container_01
+    3300006: container_lid_01
+    3300008: door_inner_left
+    3300010: door_inner_right
+    3300012: innerRing_dome
+    3300014: innerRing_floor
+    3300016: innerRing_innerWall_01
+    3300018: innerRing_innerWall_02
+    3300020: innerRing_innerWall_03
+    3300022: innerRing_innerWall_04
+    3300024: innerRing_outerWall_01
+    3300026: innerRing_outerWall_02
+    3300028: innerRing_outerWall_03
+    3300030: innerRing_outerWall_04
+    3300032: innerRing_outerWall_05
+    3300034: innerRing_roof
+    3300036: outerRing_dock_01
+    3300038: outerRing_dock_02
+    3300040: outerRing_dock_03
+    3300042: outerRing_dock_04
+    3300044: outerRing_dock_05
+    3300046: outerRing_dock_06
+    3300048: outerRing_dock_07
+    3300050: outerRing_dock_08
+    3300052: outerRing_floor
+    3300054: outerRing_floor_01
+    3300056: outerRing_floor_02
+    3300058: outerRing_innerWall_01
+    3300060: outerRing_innerWall_02
+    3300062: outerRing_innerWall_03
+    3300064: outerRing_innerWall_04
+    3300066: outerRing_innerWall_05
+    3300068: outerRing_innerWall_06
+    3300070: outerRing_innerWall_07
+    3300072: outerRing_innerWall_08
+    3300074: outerRing_outerWall
+    3300076: outerRing_roof
+    3300078: panel_broken
+    3300080: pCube1
+    3300082: pCube1 1
+    3300084: pCube2
+    3300086: pCube2 1
+    3300088: pCube3
+    3300090: pCube3 1
+    3300092: pCube4
+    3300094: pCube4 1
+    3300096: spaceShip 1
+    3300098: Wall_innerDoor
+    3300100: Wall_outerDoor
+    4300000: innerRing_innerWall_04
+    4300002: innerRing_innerWall_03
+    4300004: innerRing_innerWall_02
+    4300006: innerRing_innerWall_01
+    4300008: innerRing_outerWall_01
+    4300010: innerRing_outerWall_02
+    4300012: innerRing_outerWall_03
+    4300014: innerRing_outerWall_04
+    4300016: innerRing_outerWall_05
+    4300018: innerRing_dome
+    4300020: innerRing_roof
+    4300022: innerRing_floor
+    4300024: pCube1
+    4300026: pCube2
+    4300028: pCube3
+    4300030: pCube4
+    4300032: pCube1
+    4300034: pCube2
+    4300036: pCube3
+    4300038: pCube4
+    4300040: connectingPassage_01
+    4300042: connectingPassage_02
+    4300044: outerRing_floor_02
+    4300046: outerRing_floor_01
+    4300048: outerRing_outerWall
+    4300050: outerRing_floor
+    4300052: outerRing_roof
+    4300054: outerRing_innerWall_01
+    4300056: outerRing_innerWall_02
+    4300058: outerRing_innerWall_03
+    4300060: outerRing_innerWall_04
+    4300062: outerRing_innerWall_05
+    4300064: outerRing_innerWall_06
+    4300066: outerRing_innerWall_07
+    4300068: outerRing_innerWall_08
+    4300070: outerRing_dock_08
+    4300072: outerRing_dock_07
+    4300074: outerRing_dock_06
+    4300076: outerRing_dock_05
+    4300078: outerRing_dock_04
+    4300080: outerRing_dock_03
+    4300082: outerRing_dock_02
+    4300084: door_inner_left
+    4300086: door_inner_right
+    4300088: Wall_outerDoor
+    4300090: Wall_innerDoor
+    4300092: panel_broken
+    4300094: outerRing_dock_01
+    4300096: spaceShip
+    4300098: container_lid_01
+    4300100: container_01
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
