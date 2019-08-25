@@ -467,6 +467,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2537373299025451511, guid: 1c4b66f6605a8d249b9d1b40dd1efd7e,
+        type: 3}
+      propertyPath: m_Name
+      value: UICanvas
+      objectReference: {fileID: 0}
     - target: {fileID: 2488541944259448129, guid: 1c4b66f6605a8d249b9d1b40dd1efd7e,
         type: 3}
       propertyPath: m_RaycastTarget
@@ -486,11 +491,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Type
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2537373299025451511, guid: 1c4b66f6605a8d249b9d1b40dd1efd7e,
-        type: 3}
-      propertyPath: m_Name
-      value: UICanvas
       objectReference: {fileID: 0}
     - target: {fileID: 2537373299025451499, guid: 1c4b66f6605a8d249b9d1b40dd1efd7e,
         type: 3}
@@ -6320,7 +6320,7 @@ MonoBehaviour:
   radius: 3
   InteractableTransform: {fileID: 751345855}
   Door: {fileID: 1911213287}
-  needsKey: 1
+  needsKey: 0
   requiredKey: {fileID: 11400000, guid: 8cf061def5e6c9d4f8ae1bb35009a927, type: 2}
 --- !u!65 &751345857
 BoxCollider:
