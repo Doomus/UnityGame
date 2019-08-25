@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92d36a190109e15409d898867bc0f8a9, type: 3}
-  m_Name: C44CE34F-DAD3-4DD1-ADDF-66CB515EA42A
+  m_Script: {fileID: 11500000, guid: 53323156fc6a15a4badbf51998ae3eb8, type: 3}
+  m_Name: 712238B6-C205-4746-A637-B94229FACFDE
   m_EditorClassIdentifier: 
-  objectName: Grappling_Hook_Fire_Hiss
-  id: 1587986418
-  guid: C44CE34F-DAD3-4DD1-ADDF-66CB515EA42A
+  objectName: Player_Footsteps
+  id: 1730208058
+  guid: 712238B6-C205-4746-A637-B94229FACFDE
