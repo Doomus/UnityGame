@@ -106,12 +106,10 @@ public class Inventory : MonoBehaviour
         {
             if (inventoryOpen == false)
             {
-                Debug.Log("opened");
                 openInventory();
             }
             else if (inventoryOpen == true)
             {
-                Debug.Log("closed");
                 closeInventory();
             }
         }
