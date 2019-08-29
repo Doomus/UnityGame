@@ -23,7 +23,7 @@ public class Projectile : MonoBehaviour
     {
         
         Player = GameObject.Find("Player");
-        spawner = GameObject.Find("bulletSpawn");
+        spawner = GameObject.Find("projSpawner");
         
         StartCoroutine(killTimer());
         
@@ -71,6 +71,7 @@ public class Projectile : MonoBehaviour
 
         if (collision.gameObject.tag == "Player")
         {
+            print("hitting player");
             spawner.GetComponentInChildren<ProjectileSpawner>().hasShot = false;
             Player.GetComponentInChildren<pl_GrapplingHook>().grappleObject.SetActive(true);
             Player.GetComponentInChildren<pl_GrapplingHook>().rangeOut = false;

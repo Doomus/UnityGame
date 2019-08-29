@@ -344,7 +344,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: ed631622fee3dd4439375a235ec848f6, type: 3}
       propertyPath: m_Name
-      value: pCylinder10 (1)
+      value: grappleObject
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ed631622fee3dd4439375a235ec848f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -414,6 +414,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f86c4bb31a5c56145aea43964f0e0d8b, type: 3}
       propertyPath: m_Name
       value: Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: f86c4bb31a5c56145aea43964f0e0d8b, type: 3}
+      propertyPath: m_Name
+      value: projectileSpawner
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f86c4bb31a5c56145aea43964f0e0d8b, type: 3}
       propertyPath: m_LocalPosition.x
