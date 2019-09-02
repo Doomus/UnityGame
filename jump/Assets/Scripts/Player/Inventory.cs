@@ -52,13 +52,13 @@ public class Inventory : MonoBehaviour
         activeItemIcon.sprite = _sprite;
     }
 
-    private void openInventory()
+    private void OpenInventory()
     {
         inventoryPanel.SetActive(true);
         inventoryOpen = true;
     }
 
-    private void closeInventory()
+    private void CloseInventory()
     {
         inventoryPanel.SetActive(false);
         inventoryOpen = false;
@@ -106,12 +106,18 @@ public class Inventory : MonoBehaviour
         {
             if (inventoryOpen == false)
             {
-                openInventory();
+                OpenInventory();
             }
             else if (inventoryOpen == true)
             {
-                closeInventory();
+                CloseInventory();
             }
+        }
+
+        if (Input.GetButtonDown("Cancel"))
+        {
+            activeItem = null;
+            activeItemIcon.sprite = inventoryDefaultSprite;
         }
     }
 }

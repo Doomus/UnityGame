@@ -38,9 +38,9 @@ public class SanityAttackComponent : MonoBehaviour
                 StartCoroutine(camShake.shake(duration, magnitude));
             }
         }
-        if (!renderer.isVisible)
-        {
-            camShake.ResetPOS();
-        }
+        //if (!renderer.isVisible)
+        //{
+        //    camShake.ResetPOS();
+        //}
     }
 }
